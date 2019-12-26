@@ -6,6 +6,7 @@
 
 - 12.21 适配教务系统登录逻辑，密码从明文传输变为MD5加密传输
 - 12.26 修改README
+- 12.26 增加一键环境配置
 
 如果有**运行错误**、程序漏洞请提`ISSUE`
 
@@ -20,13 +21,21 @@
 
 ## 使用:
 
-- 请在电脑上安装`python3`运行环境,并安装以下库:
-  - requests
-  - BeautifulSoup
-  - Image
-  - **lxml**
+- 在电脑上安装`python3`运行环境
 
-- 请用命令提示符/Bash切换到本软件目录下,运行`python selectCourse.py`,根据提示执行即可.
+- 将运行目录切换至本脚本根目录
+
+- 安装脚本所需库:
+    你可以使用下面**两种方法**
+
+    1. 输入`pip install -r requirements.txt`
+    2. 手动安装以下库：
+        - requests
+        - BeautifulSoup
+        - Pillow
+        - **lxml**
+
+- 运行`python selectCourse.py`,根据提示执行即可.
 
 ## P.S. 
 
